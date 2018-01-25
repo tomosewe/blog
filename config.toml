@@ -1,0 +1,4 @@
+baseurl = "https://blog.tomosewe.com"
+languageCode = "en-us"
+title = "blog"
+theme = "hyde"
