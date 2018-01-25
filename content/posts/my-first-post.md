@@ -13,6 +13,8 @@ I had a few hiccups getting it deployed. The first was solved by adding the publ
 
 The second issue I was that I needed to put the right url in the baseurl setting in the config.toml file. After deploying your hugo site the first time, rename the default url to something more appropriate and then add that url to your config.toml file. This makes sure that all your css and other assests are routed correctly. 
 
+I'm really enjoying how fast a deploy takes place, all I have to do is push to my master branch and the site is deployed almost instantly.
+
 Ultimately it was a real breeze setting it up. I'm looking forward to blogging more this year with Hugo.
 
 
