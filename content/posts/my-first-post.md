@@ -9,7 +9,9 @@ title = "Setting up a blog with Hugo and Netlify"
 
 Deploying a new Hugo site is also really easy. In the past I've used [GitHub Pages](https://pages.github.com/) and also [Firebase](https://firebase.google.com/) for hosting. However this time I've decided to use [Netlify](https://www.netlify.com/) as I've heard quite a lot of great things about it. There are heaps of great tutorials I've found for deploying a Hugo site to Netlify.
 
-This blog post is not yet complete. I've got to try and deploy it to Netlify first before I can finish it off.
+The first time I deployed to Netlify I just used the in built wizard. It was super simple, all it required was for me choose the GitHub repository for this project and that was it.
 
-To be continued.
+Insert image here
+
+
 
