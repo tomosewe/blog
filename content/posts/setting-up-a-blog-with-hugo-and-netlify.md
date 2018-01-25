@@ -1,6 +1,6 @@
 +++
 date = "2018-01-25T18:35:32+13:00"
-draft = false
+draft = true
 title = "Setting up a blog with Hugo and Netlify"
 
 +++
