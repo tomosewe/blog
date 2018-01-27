@@ -10,46 +10,55 @@ Deploying a new Hugo site is also really easy. In the past I've used [GitHub Pag
 
 This post should serve as a quick tutorial for getting yourself set up with a new Hugo blog hosted on Netlify.
 
-1. Install Hugo.
+1. #### Install Hugo.
 
     For me this was on [Ubuntu](https://www.ubuntu.com/) so I'll go into detail for that. If you're using a Mac or Windows or another Linux distro, head to the [official installation page](https://gohugo.io/getting-started/installing/) and follow the instructions there. You can skip over to the next section once you're up and running.
 
-    The official instructions say to use `sudo apt-get install hugo` but I found that the version was old and some themes no longer worked with that version. Instead I used `snap install hugo` to get the latest version. However I then had to use the command `snap run hugo` whenever I needed to use Hugo, so I created an alias `alias hugo="snap run hugo"` to make things a bit easier. Run `hugo version` to make sure you're using the most recent version available, at this time of writing the most recent version is `0.34`.
+    The official instructions say to use `sudo apt-get install hugo` but I found that the version was old and some themes no longer worked with that version. Instead I used `snap install hugo` to get the latest version. However I then had to use the command `snap run hugo` whenever I needed to use Hugo, so I created an alias `alias hugo="snap run hugo"` to make things a bit easier. Run `hugo version` to make sure you're using the most recent version available, at this time of writing the most recent version is _0.34_.
 
-2. Create a new site.
+2. #### Create a new site.
 
-    In your terminal, navigate to the parent directory where you want to store your new site. Run `hugo new site my-new-blog`. This will create a new directory in that directory containing all the scaffolding required for your new Hugo site. 
+    In your terminal, navigate to the parent directory where you want to store your new site. Run `hugo new site blogtutorial`. This will create a new directory containing all the scaffolding required for your new Hugo site. 
 
     ![hugo-new-site][hugo-new-site]
 
-3. Choose a theme.
+3. #### Choose a theme.
 
-    Hugo has a [huge range of themes](https://themes.gohugo.io/) to choose from, or you can create your own if you prefer. I've gone for the [Hyde](https://themes.gohugo.io/hyde/) theme so we'll use that for this tutorial. Install the theme in your themes/ directory. 
-        `cd themes` 
-        `git clone https://github.com/spf13/hyde.git`.
-    Then add the theme to your config.toml file by adding the line `theme = "hyde"` at the top of the file.
+    Hugo has a [huge range of themes](https://themes.gohugo.io/) to choose from, or you can create your own if you prefer. I've gone for the [Hyde](https://themes.gohugo.io/hyde/) theme for this blog so we'll use that for this tutorial. Install the theme in your _themes/_ directory. 
+    ```bash
+    cd themes
+    git clone https://github.com/spf13/hyde.git
+    ```
+    Then add the theme to your _config.toml_ file by adding the line
+    ```yaml
+    theme = "hyde"
+    ```
+    at the top of the file.
 
-4. Create your first post.
+4. #### Create your first post.
 
-    Run `hugo new posts/my-first-post.md`. This will create a new file in `content/posts/` named `my-first-post.md`. Go ahead and edit that file with some dummy content. 
+    Run `hugo new posts/my-first-post.md`. This will create a new file in _content/posts/_ named `my-first-post.md`. Go ahead and edit that file with some dummy content. 
 
-5. Build and run.
+5. #### Build and run.
 
-    Run `hugo` to build your site. Hugo will generate the site inside of the public/ directory. Now run `hugo serve -D` -D is to enable drafts. Your site will now be viewable on `http://localhost:1313/`. 
+    Run `hugo` to build your site. Hugo will generate the site inside of the _public/_ directory. Now run `hugo serve -D` The -D flag is to enable drafts. Your site will now be viewable on [http://localhost:1313/](http://localhost:1313/). 
 
-And that's it, you're set up with Hugo. Check the [Hugo docs](https://gohugo.io/documentation/) for more in depth information.
+And that's it, you're set up with Hugo. Check out the [Hugo docs](https://gohugo.io/documentation/) for more in depth information.
 
 Now it's time to get our site deployed to Netlify. 
 
-1. Push your site to GitHub
+1. #### Push your site to GitHub
 
     Set up a Git repository on GitHub and push your new Hugo blog to the repository. 
-    Tip: add your public/ directory to your .gitignore file. You won't need it as Netlify will run the `hugo` command and generate the folder for you. 
+    
+    > Tip: add your _public/_ directory to your _.gitignore_ file. 
 
-2. Set up Netlify
+    > You won't need it as Netlify will run the `hugo` command and generate the folder for you. 
+
+2. #### Set up Netlify
 
     Head over to [netlify.com](https://www.netlify.com/) and sign up if you haven't already.
-    Once you're all signed up head to [app.netlify.com/](https://app.netlify.com/) and click on `New site from Git`. Here you can link your GitHub account and choose your new blog repository. 
+    Once you're all signed up head to [app.netlify.com](https://app.netlify.com/) and click on `New site from Git`. Here you can link your GitHub account and choose your new blog repository. 
 
     ![netlify-create-a-new-site][netlify-create-a-new-site]
 
@@ -63,9 +72,13 @@ Now it's time to get our site deployed to Netlify.
 
     Hit the `Deploy site` button and your site will be live!
 
-The first time you view your site from netlify you may notice that all the styling is not working. This will be because we need to set the base url for the site in our config.toml file.
+The first time you view your site from Netlify you may notice that none of the styling is working. This will be because we need to set the base url for the site in our config.toml file.
 
-Modify the baseurl to point to your Netlify url `baseurl = "https://your-site-name.netlify.com/"`
+Modify the baseurl in your config.toml file to point to your Netlify url.
+
+```yaml
+baseurl = "https://your-site-name.netlify.com/"`
+```
 
 Now push your site to GitHub again and your styles should be pulling through correctly.
 
