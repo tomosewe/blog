@@ -5,5 +5,5 @@ theme = "hyde"
 disqusShortname = "tomoseweblog"
 [params]
   themeColor = "theme-base-0d"
-  layoutReverse = true
+  layoutReverse = false
   description = "Hi, I'm Tomos Ewe, a web developer from Auckland, New Zealand. This is my blog."
