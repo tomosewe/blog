@@ -4,7 +4,7 @@ draft = false
 title = "Setting up a blog with Hugo and Netlify"
 +++
 
-[Hugo](https://gohugo.io/) is a static site generator that claims to be the world's fastest framework for building websites. I've used [jekyll](https://jekyllrb.com/) in the past to set up a blog but found it clunky to use and the build time to be quite slow. So far Hugo has been really easy to set up and I'm loving the huge amount of themes to choose from and how easy it is to switch between them. 
+[Hugo](https://gohugo.io/) is a static site generator that claims to be the world's fastest framework for building websites. I've used [jekyll](https://jekyllrb.com/) in the past to set up a blog but found it clunky to use and the build time to be quite slow. So far Hugo has been really easy to set up and I'm loving the huge number of themes to choose from and how easy it is to switch between them. 
 
 Deploying a new Hugo site is also really easy. In the past I've used [GitHub Pages](https://pages.github.com/) and also [Firebase](https://firebase.google.com/) for hosting. However this time I've decided to use [Netlify](https://www.netlify.com/) as I've heard quite a lot of great things about it. 
 
@@ -14,7 +14,7 @@ This post should serve as a quick tutorial for getting yourself set up with a ne
 
     For me this was on [Ubuntu](https://www.ubuntu.com/) so I'll go into detail for that. If you're using a Mac or Windows or another Linux distro, head to the [official installation page](https://gohugo.io/getting-started/installing/) and follow the instructions there. You can skip over to the next section once you're up and running.
 
-    The official instructions say to use `sudo apt-get install hugo` but I found that the version was old and some themes no longer worked with that version. Instead I used `snap install hugo` to get the latest version. However I then had to use the command `snap run hugo` whenever I needed to use Hugo, so I created an alias `alias hugo="snap run hugo"` to make things a bit easier. Run `hugo version` to make sure you're using the most recent version available, at this time of writing the most recent version is _0.34_.
+    The official instructions say to use `sudo apt-get install hugo` but I found that the version was old and some themes no longer worked with that version. Instead I used `snap install hugo` to get the latest version. However, I then had to use the command `snap run hugo` whenever I needed to use Hugo, so I created an alias `alias hugo="snap run hugo"` to make things a bit easier. Run `hugo version` to make sure you're using the most recent version available, at the time of writing the most recent version is _0.34_.
 
 2. #### Create a new site.
 
@@ -41,7 +41,7 @@ This post should serve as a quick tutorial for getting yourself set up with a ne
 
 5. #### Build and run.
 
-    Run `hugo` to build your site. Hugo will generate the site inside of the _public/_ directory. Now run `hugo serve -D` The -D flag is to enable drafts. Your site will now be viewable on [http://localhost:1313/](http://localhost:1313/). 
+    Run `hugo` to build your site. Hugo will generate the site inside the _public/_ directory. Now run `hugo serve -D` The -D flag is to enable drafts. Your site will now be viewable on [http://localhost:1313/](http://localhost:1313/). 
 
 And that's it, you're set up with Hugo. Check out the [Hugo docs](https://gohugo.io/documentation/) for more in depth information.
 
@@ -58,7 +58,7 @@ Now it's time to get our site deployed to Netlify.
 2. #### Set up Netlify
 
     Head over to [netlify.com](https://www.netlify.com/) and sign up if you haven't already.
-    Once you're all signed up head to [app.netlify.com](https://app.netlify.com/) and click on `New site from Git`. Here you can link your GitHub account and choose your new blog repository. 
+    Once you're all signed up, head to [app.netlify.com](https://app.netlify.com/) and click on `New site from Git`. Here you can link your GitHub account and choose your new blog repository. 
 
     ![netlify-create-a-new-site][netlify-create-a-new-site]
 
