@@ -4,6 +4,7 @@ date: 2018-06-12T23:17:03+12:00
 draft: false
 ---
 
+(Update: This post is out of date, I am now working on a Mac for work, new post to come soon.)
 So I currently do all my web development work on a windows machine. Both at home and at work.
 
 Here are the tools and apps I use on a day to day basis.

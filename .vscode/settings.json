@@ -1,7 +1,7 @@
 {
-    "cSpell.words": [
-        "blogging",
-        "netlify",
-        "toml"
-    ]
+	"cSpell.words": ["blogging", "netlify", "toml"],
+	"prettier.eslintIntegration": true,
+	"prettier.singleQuote": false,
+	"prettier.useTabs": false,
+	"prettier.tabWidth": 2
 }

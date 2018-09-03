@@ -4,6 +4,8 @@
 
 [Install Hugo](https://gohugo.io/getting-started/installing)
 
+Make sure you git clone the theme everytime you clone this repo, otherwise it will serve nothing.
+
 ```
 cd themes/
 git clone https://github.com/spf13/hyde.git
