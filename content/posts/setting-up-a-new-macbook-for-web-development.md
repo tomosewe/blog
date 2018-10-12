@@ -1,7 +1,7 @@
 ---
 title: "Setting Up a New Macbook for Web Development"
 date: 2018-10-12T13:38:51+13:00
-draft: true
+draft: false
 ---
 
 I've just started using a MacBook Pro as my main development machine at work. As this is the first time I've used a Mac for web development, I'm documenting all the settings, installs, tips and tricks on how to get up and running with an awesome development machine.
