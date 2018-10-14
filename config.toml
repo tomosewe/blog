@@ -4,6 +4,8 @@ title = "blog"
 theme = "hyde"
 disqusShortname = "tomoseweblog"
 googleAnalytics = "UA-80655492-4"
+enableRobotsTXT = true
+canonifyURLs = true
 [params]
   themeColor = "theme-base-0d"
   layoutReverse = false
