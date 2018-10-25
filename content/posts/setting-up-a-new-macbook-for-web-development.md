@@ -238,6 +238,14 @@ git gui client.
 brew cask install gitkraken
 ```
 
+#### [Aerial](https://github.com/JohnCoates/Aerial)
+
+Use the Apple tv screensaver on your mac.
+
+```bash
+brew cask install aerial
+```
+
 ---
 
 ## General Mac Settings
