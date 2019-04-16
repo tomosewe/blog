@@ -234,3 +234,5 @@ npm run start
 ![Title change in action!](/images/gifs/TitleChange.gif)
 
 🔥🔥🔥 Celebrate! 🔥🔥🔥
+
+All code for this demo can be found in this [GitHub repo](https://github.com/tomosewe/hoc-reach-helmet-demo).
