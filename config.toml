@@ -2,7 +2,6 @@ baseurl = "https://blog.tomosewe.com/"
 languageCode = "en-us"
 title = "blog"
 theme = "hyde"
-disqusShortname = "tomoseweblog"
 googleAnalytics = "UA-80655492-4"
 enableRobotsTXT = true
 canonifyURLs = true
