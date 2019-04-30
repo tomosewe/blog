@@ -171,6 +171,10 @@ brew cask install docker
 
 Productivity app for hotkeys, keywords, text expanding and more.
 
+```bash
+brew cask install alfred
+```
+
 #### [Parallels](https://www.parallels.com/)
 
 Provided by work so I can run a Windows VM, we have a few .NET codebases that require maintenance.
