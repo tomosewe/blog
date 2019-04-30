@@ -153,14 +153,15 @@ brew install awscli
 
 ### [Docker](https://www.docker.com/)
 
-- [How to install](https://pilsniak.com/how-to-install-docker-on-mac-os-using-brew/)
+```bash
+brew cask install docker
+```
+[Install instructions](https://stackoverflow.com/a/43365425)
 
 ### [.Net](https://www.microsoft.com/net)
 
 - [Install the .Net SDK](https://www.microsoft.com/net/learn/get-started-with-dotnet-tutorial)
-
-- [Xcode](https://itunes.apple.com/app/xcode/id497799835) is required to install Visual Studio for Mac.
-- [Visual Studio For Mac](https://visualstudio.microsoft.com/vs/mac/)
+- [I use Rider for dotnet development](https://www.jetbrains.com/rider/)
 
 ---
 
