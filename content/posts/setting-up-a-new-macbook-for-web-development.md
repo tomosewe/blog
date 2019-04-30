@@ -291,6 +291,7 @@ brew cask install aerial
 - Move _Key Repeat_ and _Delay Until Repeat_ all the way to the right.
 - Touch Bar Show _F1, F2 etc. Keys_.
 - Press Fn key to _Expand Control Strip_.
+- In `customise control strip` replace `Siri` with `Screen lock`
 
 ##### Mouse & Trackpad
 
