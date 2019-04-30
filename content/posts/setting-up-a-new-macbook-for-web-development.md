@@ -36,9 +36,11 @@ brew cask install iterm2
 Now that we've got ITerm2 installed let's set it up.
 
 - [Install Oh My Zsh](https://ohmyz.sh/)
+
 ```bash
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
+
 - [Install zsh autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 - [Install zsh syntax highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 - [Install Z](https://github.com/rupa/z)
