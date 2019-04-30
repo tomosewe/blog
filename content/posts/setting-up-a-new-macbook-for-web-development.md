@@ -42,7 +42,19 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 ```
 
 - [Install zsh autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+
+```bash
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+Add to zshrc plugins - `plugins=(zsh-autosuggestions)`
+
 - [Install zsh syntax highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+
+```bash
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+Add to zshrc plugins - `plugins=(zsh-syntax-highlighting)`
+
 - [Install Z](https://github.com/rupa/z)
 
 Here is my current [.zshrc](https://github.com/tomosewe/dotfiles/blob/master/.zshrc) with aliases etc.
@@ -94,23 +106,6 @@ Some resources around setting up your own .gitconfig:
 
 - [Git Basics: Git Aliases](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases)
 
-### [Trash](https://github.com/sindresorhus/trash)
-
-Use the trash command instead of `rm` to send things to the trash.
-
-```bash
-npm install --global trash-cli
-```
-
-### [Tree](https://www.npmjs.com/package/tree-cli)
-
-Tree allows you to pretty print a directory in the console.
-
-```bash
-npm install -g tree-cli
-```
-
-[Use Wes Bos' tree function in your .zshrc](https://gist.github.com/wesbos/1432b08749e3cd2aea22fcea2628e2ed)
 
 ### [NodeJS](https://nodejs.org/en/)
 
@@ -131,6 +126,24 @@ The script clones the nvm repository to ~/.nvm and adds the source line to your 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 ```
+
+### [Trash](https://github.com/sindresorhus/trash)
+
+Use the trash command instead of `rm` to send things to the trash.
+
+```bash
+npm install --global trash-cli
+```
+
+### [Tree](https://www.npmjs.com/package/tree-cli)
+
+Tree allows you to pretty print a directory in the console.
+
+```bash
+npm install -g tree-cli
+```
+
+[Use Wes Bos' tree function in your .zshrc](https://gist.github.com/wesbos/1432b08749e3cd2aea22fcea2628e2ed)
 
 ### [AWS Command Line Interface](https://aws.amazon.com/cli/)
 
