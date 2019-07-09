@@ -4,7 +4,7 @@ date: 2018-06-12T23:17:03+12:00
 draft: false
 ---
 
-> Update: This post is out of date, I am now working on a Mac for work, new post to come soon.
+> Update: This post is out of date, I am now working on a Mac for work, [new post here](https://blog.tomosewe.com/posts/setting-up-a-new-macbook-for-web-development/).
 
 So I currently do all my web development work on a windows machine. Both at home and at work.
 
