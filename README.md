@@ -4,14 +4,18 @@
 
 [Install Hugo](https://gohugo.io/getting-started/installing)
 
+``` bash
+brew install hugo
+```
+
 Make sure you git clone the theme everytime you clone this repo, otherwise it will serve nothing.
 
-```
+``` bash
 cd themes/
 git clone https://github.com/spf13/hyde.git
 ```
 
-```
+``` bash
 hugo
 hugo server -D
 ```
