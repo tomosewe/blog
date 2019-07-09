@@ -1,7 +1,7 @@
 ---
 title: "Updating Netlify Environment Variables"
 date: 2019-07-09T22:35:08+12:00
-draft: true
+draft: false
 ---
 
 For my last blog post, the usual push to `master` wasn't deploying my site to [Netlify](https://www.netlify.com/).
