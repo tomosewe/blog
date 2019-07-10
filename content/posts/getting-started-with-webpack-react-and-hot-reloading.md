@@ -10,7 +10,7 @@ draft: false
 >
 > - [How to Create a React app from scratch using Webpack 4](https://www.freecodecamp.org/news/part-1-react-app-from-scratch-using-webpack-4-562b1d231e75/)
 
-This is essentially a **TLDR** of the first post. Compressed to just the tasks you need to get up and running. Follow along and all will work in the end.
+This is essentially a **TLDR** of the first post. Compressed to just the tasks you need to get up and running. Follow along and all will work out in the end.
 
 Let's start!
 
@@ -25,14 +25,14 @@ Create a new [npm](https://www.npmjs.com/) project.
 npm init -y
 ```
 
-Install [webpack](https://github.com/webpack/webpack) and [wepback-cli](https://github.com/webpack/webpack-cli)
+Install [webpack](https://github.com/webpack/webpack) and [wepback-cli](https://github.com/webpack/webpack-cli).
 
 ``` bash
 npm i webpack --save-dev
 npm i webpack-cli --save-dev
 ```
 
-Add a the following scripts in `package.json`
+Add the following scripts in `package.json`
 
 ``` json
 "scripts": {
@@ -274,7 +274,7 @@ Install [webpack-dev-server](https://github.com/webpack/webpack-dev-server).
 npm i webpack-dev-server --save-dev
 ```
 
-Replace our scripts with the following:
+Replace our scripts in `package.json` with the following:
 
 ``` json
 "scripts": {
@@ -285,6 +285,6 @@ Replace our scripts with the following:
 
 > Note: Adding `--hot` allows for [Hot Module Replacement](https://webpack.js.org/concepts/hot-module-replacement/) which means that only the changed component will be reloaded, so you won't lose your application state.
 
-Run `npm run start` and you'll see your changes update in the browser every time you make a change.
+Run `npm start` and you'll see your changes update in the browser every time you make a change.
 
 You can find a full working example of this at the following [repo](https://github.com/tomosewe/webpack-react-starter).

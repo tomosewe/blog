@@ -1,6 +1,6 @@
 ---
 title: "Updating Netlify Environment Variables"
-date: 2019-07-09T22:35:08+12:00
+date: 2019-07-10T22:35:08+12:00
 draft: false
 ---
 
