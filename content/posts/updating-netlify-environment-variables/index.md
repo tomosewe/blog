@@ -16,7 +16,7 @@ Aha! Let's have a look at the logs. This line looks interesting.
 
 Looks like we're somehow using an older version of [Hugo](https://gohugo.io/) than our theme supports.
 
-Let's have a look at the environment variables
+Let's have a look at the environment variables.
 
 ![Environment variables panel](env-variables.png)
 
